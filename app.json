@@ -17,7 +17,8 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "basePath": "/nauta"
     },
     "plugins": [
       "expo-router",

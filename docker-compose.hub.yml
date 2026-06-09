@@ -1,0 +1,7 @@
+services:
+  app:
+    image: rjovieira/nauta:1.0
+    ports:
+      - "8085:80"
+    container_name: nauta-exam-prod
+    restart: always

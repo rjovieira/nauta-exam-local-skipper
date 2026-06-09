@@ -25,7 +25,6 @@ nauta-exam-local-skipper/
 ├── .dockerignore          # Docker ignore file
 ├── Dockerfile             # Multi-stage production web builder
 ├── docker-compose.yml     # Dev and Prod docker configurations
-├── nginx.conf             # Nginx reverse proxy configuration for Web routing
 ├── app.json               # Expo configuration (meta, splash, orientation, colors)
 ├── package.json           # Native and web dependencies + npm scripts
 ├── tsconfig.json          # TypeScript configurations
@@ -103,13 +102,22 @@ docker compose up dev
 * Chokidar file polling is enabled for stable Hot Module Replacement (HMR) across container volumes.
 
 ### 2. Production Mode (Serving Web via Nginx)
-To build and run the optimized production container:
+
+#### Option A: Build and run from local source files
+To compile and run the production container locally:
 ```bash
 docker compose up --build app
 ```
-* **How it works:** A multi-stage `Dockerfile` compiles the production static web bundle (`npx expo export --platform web`) and copies it to a lightweight Alpine Nginx server.
-* The application runs at **`http://localhost:8085`**.
-* **Nginx Features (`nginx.conf`):** Configured with custom `try_files` fallbacks to handle single-page navigation and enables Gzip compression (for CSS, HTML, JS) to improve web performance metrics.
+* **How it works:** A multi-stage `Dockerfile` compiles the production static web bundle (`npx expo export --platform web`) and copies it to the `/usr/share/nginx/html/nauta` directory inside a default Nginx Alpine container.
+* The application is served at **`http://localhost:8085/nauta`**.
+
+#### Option B: Run using the published Docker Hub image
+To run the container using the official prebuilt image published on Docker Hub (`rjovieira/nauta:1.0`):
+```bash
+docker compose -f docker-compose.hub.yml up
+```
+* The application is served at **`http://localhost:8085/nauta`**.
+* No local compilation or building of source files is required.
 
 ---
 
