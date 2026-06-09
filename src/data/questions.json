@@ -1,0 +1,454 @@
+{
+  "questions": [
+    {
+      "id": "nav-001",
+      "subject": "navigation",
+      "question": "Qual é a unidade de distância utilizada na navegação marítima?",
+      "options": [
+        "Quilómetro",
+        "Milha náutica",
+        "Milha terrestre",
+        "Metro"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A milha náutica (1852 metros) é a unidade padrão de distância na navegação marítima. Corresponde a um minuto de arco de latitude.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "nav-002",
+      "subject": "navigation",
+      "question": "O que representa a linha isobatimétrica numa carta náutica?",
+      "options": [
+        "Uma linha de igual pressão atmosférica",
+        "Uma linha de igual profundidade",
+        "Uma linha de igual temperatura da água",
+        "Uma linha de igual declinação magnética"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As linhas isobatimétricas (ou isobatas) unem pontos de igual profundidade numa carta náutica, permitindo visualizar o relevo do fundo do mar.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "nav-003",
+      "subject": "navigation",
+      "question": "A declinação magnética é o ângulo entre:",
+      "options": [
+        "O Norte magnético e o Norte da agulha",
+        "O Norte verdadeiro e o Norte magnético",
+        "O Norte verdadeiro e a proa da embarcação",
+        "A proa e a linha de fé da agulha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A declinação magnética é o ângulo formado entre o Norte verdadeiro (geográfico) e o Norte magnético, num determinado local e momento. Este valor varia com a posição geográfica e com o tempo.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "nav-004",
+      "subject": "navigation",
+      "question": "Quantos graus tem uma quarta da rosa-dos-ventos?",
+      "options": [
+        "11,25°",
+        "22,5°",
+        "45°",
+        "90°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A rosa-dos-ventos está dividida em 32 quartas. Cada quarta corresponde a 360° ÷ 32 = 11,25°.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "nav-005",
+      "subject": "navigation",
+      "question": "O que é o rumo verdadeiro?",
+      "options": [
+        "O ângulo medido a partir do Norte da agulha",
+        "O ângulo medido a partir do Norte magnético",
+        "O ângulo medido a partir do Norte verdadeiro até à direção seguida, no sentido dos ponteiros do relógio",
+        "O ângulo entre a proa e a popa da embarcação"
+      ],
+      "correctAnswer": 2,
+      "explanation": "O rumo verdadeiro é o ângulo medido no sentido horário (dos ponteiros do relógio) a partir do Norte verdadeiro (geográfico) até à direção pretendida, variando de 0° a 360°.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "rie-001",
+      "subject": "rieam",
+      "question": "Segundo o RIEAM, quando duas embarcações a motor se encontram em rumos diretamente opostos (situação de roda a roda), o que deve cada uma fazer?",
+      "options": [
+        "A embarcação maior deve manobrar para estibordo",
+        "Ambas devem guinar para bombordo",
+        "Ambas devem guinar para estibordo",
+        "A embarcação que vem de sotavento deve dar passagem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Na situação de roda a roda (Regra 14 do RIEAM), ambas as embarcações devem guinar para estibordo (direita) de modo a passarem por bombordo uma da outra.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "rie-002",
+      "subject": "rieam",
+      "question": "De acordo com o RIEAM, qual é a cor do farol de navegação de bombordo?",
+      "options": [
+        "Verde",
+        "Branco",
+        "Vermelho",
+        "Amarelo"
+      ],
+      "correctAnswer": 2,
+      "explanation": "O farol de bombordo (lado esquerdo, olhando para a proa) é de cor vermelha. O farol de estibordo é verde. Uma forma de memorizar: 'bom vinho tinto' — Bombordo = Vermelho.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "rie-003",
+      "subject": "rieam",
+      "question": "Segundo o RIEAM, numa situação de cruzamento entre duas embarcações a motor, qual é a embarcação que deve manobrar para evitar o abalroamento?",
+      "options": [
+        "A que avista a outra pelo seu lado de bombordo",
+        "A que avista a outra pelo seu lado de estibordo",
+        "A embarcação mais pequena",
+        "A embarcação mais lenta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Na situação de cruzamento (Regra 15 do RIEAM), a embarcação que avista a outra pelo seu lado de estibordo deve manobrar para evitar o abalroamento, devendo evitar cruzar a proa da outra embarcação.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "rie-004",
+      "subject": "rieam",
+      "question": "De acordo com o RIEAM, qual é o sinal sonoro que uma embarcação a motor em andamento deve emitir em visibilidade reduzida?",
+      "options": [
+        "Um apito prolongado a intervalos não superiores a 2 minutos",
+        "Dois apitos prolongados a intervalos não superiores a 2 minutos",
+        "Um apito curto a cada minuto",
+        "Três apitos curtos a cada 2 minutos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Segundo a Regra 35(a) do RIEAM, uma embarcação de propulsão mecânica a fazer caminho deve emitir um apito prolongado a intervalos não superiores a 2 minutos.",
+      "difficulty": "hard",
+      "assets": null
+    },
+    {
+      "id": "rie-005",
+      "subject": "rieam",
+      "question": "Segundo o RIEAM, uma embarcação à vela tem, em regra, prioridade sobre:",
+      "options": [
+        "Uma embarcação a motor e uma embarcação de pesca",
+        "Uma embarcação a motor, mas não sobre uma embarcação de pesca",
+        "Todas as embarcações sem exceção",
+        "Apenas embarcações a remos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Segundo a Regra 18 do RIEAM, uma embarcação à vela deve manter-se fora do caminho de embarcações com capacidade de manobra restrita, sem governo e de pesca. Contudo, tem prioridade sobre embarcações a motor em condições normais.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "met-001",
+      "subject": "meteorology",
+      "question": "O que indica um barómetro com pressão a descer rapidamente?",
+      "options": [
+        "Aproximação de bom tempo estável",
+        "Manutenção das condições atuais",
+        "Aproximação provável de mau tempo",
+        "Aumento da temperatura do ar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uma descida rápida da pressão atmosférica no barómetro é um indicador clássico de aproximação de mau tempo, geralmente associado à passagem de uma depressão ou frente meteorológica.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "met-002",
+      "subject": "meteorology",
+      "question": "Na escala de Beaufort, a que corresponde a força 0?",
+      "options": [
+        "Aragem",
+        "Calma (sem vento)",
+        "Brisa leve",
+        "Vento fresco"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A força 0 da escala de Beaufort corresponde à calma, ou seja, ausência de vento, com o mar liso como um espelho. A velocidade do vento é inferior a 1 nó.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "met-003",
+      "subject": "meteorology",
+      "question": "No hemisfério norte, como circula o vento em torno de um centro de baixas pressões (depressão)?",
+      "options": [
+        "No sentido dos ponteiros do relógio",
+        "No sentido contrário aos ponteiros do relógio",
+        "De norte para sul",
+        "De forma aleatória, sem padrão definido"
+      ],
+      "correctAnswer": 1,
+      "explanation": "No hemisfério norte, devido ao efeito de Coriolis, o vento circula no sentido contrário ao dos ponteiros do relógio em torno de um centro de baixas pressões (ciclone/depressão).",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "met-004",
+      "subject": "meteorology",
+      "question": "O que é a nortada, fenómeno comum na costa portuguesa durante o verão?",
+      "options": [
+        "Um vento forte de sul associado a depressões",
+        "Um vento persistente de norte/noroeste na costa ocidental",
+        "Uma corrente marítima fria vinda do Ártico",
+        "Um nevoeiro matinal típico do Algarve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A nortada é um vento predominante de norte/noroeste que sopra na costa ocidental portuguesa durante o verão, causado pela diferença de pressão entre o anticiclone dos Açores e a depressão térmica da Península Ibérica.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "saf-001",
+      "subject": "safety",
+      "question": "Qual é o equipamento individual de salvação obrigatório para cada pessoa a bordo de uma embarcação de recreio?",
+      "options": [
+        "Fato de mergulho",
+        "Colete de salvação",
+        "Boia salva-vidas",
+        "Arnês de segurança"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O colete de salvação é o equipamento individual de salvação obrigatório. Deve existir um colete aprovado e adequado ao peso de cada pessoa a bordo, incluindo crianças.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "saf-002",
+      "subject": "safety",
+      "question": "Em caso de homem ao mar, qual é a manobra imediata que o timoneiro deve executar?",
+      "options": [
+        "Parar imediatamente o motor",
+        "Guinar para o lado em que caiu a pessoa e lançar uma boia",
+        "Dar marcha-atrás a toda a força",
+        "Chamar imediatamente o MRCC Lisboa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A manobra imediata é guinar para o lado em que a pessoa caiu ao mar (para afastar a popa e a hélice da vítima) e lançar uma boia de salvação. Simultaneamente, deve gritar-se 'Homem ao mar!' e designar alguém para manter contacto visual com a vítima.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "saf-003",
+      "subject": "safety",
+      "question": "Qual é o número de telefone de emergência marítima em Portugal (MRCC Lisboa)?",
+      "options": [
+        "112",
+        "214 401 919",
+        "808 200 204",
+        "291 213 112"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O MRCC Lisboa (Maritime Rescue Coordination Centre) pode ser contactado pelo número 214 401 919. Em alternativa, pode usar-se o canal 16 VHF ou o número europeu de emergência 112, que encaminha a chamada.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "saf-004",
+      "subject": "safety",
+      "question": "Qual é a principal causa de incêndio a bordo de embarcações de recreio?",
+      "options": [
+        "Sobrecarga elétrica nos equipamentos de navegação",
+        "Fugas de gás ou combustível",
+        "Exposição solar excessiva",
+        "Utilização de tintas inflamáveis no casco"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As fugas de gás (de cozinha) ou de combustível são a principal causa de incêndios e explosões a bordo. É fundamental verificar regularmente as ligações, mangueiras e válvulas, e ventilar bem os espaços antes de ligar o motor.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "tid-001",
+      "subject": "tides",
+      "question": "O que é a preia-mar?",
+      "options": [
+        "O nível mais baixo atingido pela maré",
+        "O nível mais alto atingido pela maré",
+        "A diferença entre a maré alta e a maré baixa",
+        "O momento em que a corrente de maré é mais forte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A preia-mar (PM) é o nível mais alto atingido pela água do mar num ciclo de maré. O nível mais baixo designa-se baixa-mar (BM).",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "tid-002",
+      "subject": "tides",
+      "question": "O que são marés vivas (ou marés de sizígia)?",
+      "options": [
+        "Marés com amplitude mínima, que ocorrem nas quadraturas",
+        "Marés com amplitude máxima, que ocorrem nas fases de lua nova e lua cheia",
+        "Marés que ocorrem apenas durante o inverno",
+        "Marés provocadas exclusivamente pelo vento"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As marés vivas (sizígia) ocorrem quando o Sol, a Lua e a Terra estão alinhados (lua nova e lua cheia). Nesta situação, as forças gravitacionais do Sol e da Lua somam-se, produzindo marés com maior amplitude.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "tid-003",
+      "subject": "tides",
+      "question": "Qual é o período aproximado entre duas preia-mares consecutivas (maré semidiurna)?",
+      "options": [
+        "6 horas",
+        "12 horas e 25 minutos",
+        "24 horas",
+        "24 horas e 50 minutos"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Na costa portuguesa, a maré é predominantemente semidiurna, ou seja, ocorrem duas preia-mares e duas baixa-mares por dia. O intervalo entre duas preia-mares consecutivas é de aproximadamente 12 horas e 25 minutos.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "tid-004",
+      "subject": "tides",
+      "question": "O que é a amplitude de maré?",
+      "options": [
+        "A profundidade média do local",
+        "A diferença de altura entre a preia-mar e a baixa-mar consecutivas",
+        "A velocidade da corrente de maré",
+        "A distância horizontal percorrida pela água durante a maré"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A amplitude de maré é a diferença de altura entre o nível da preia-mar e o nível da baixa-mar consecutivas. É maior nas marés vivas e menor nas marés mortas.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "com-001",
+      "subject": "communications",
+      "question": "Qual é o canal VHF internacional de socorro, urgência e segurança?",
+      "options": [
+        "Canal 9",
+        "Canal 12",
+        "Canal 16",
+        "Canal 70"
+      ],
+      "correctAnswer": 2,
+      "explanation": "O canal 16 VHF (156,800 MHz) é o canal internacional de socorro, urgência e segurança. Todas as embarcações equipadas com VHF devem manter escuta permanente neste canal.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "com-002",
+      "subject": "communications",
+      "question": "Qual é a palavra utilizada para iniciar uma chamada de socorro em radiotelefonia?",
+      "options": [
+        "PAN-PAN",
+        "SÉCURITÉ",
+        "MAYDAY",
+        "SOS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A palavra 'MAYDAY' (repetida três vezes) é utilizada para iniciar uma chamada de socorro em radiotelefonia, indicando que a embarcação ou pessoa está em perigo grave e iminente e necessita de assistência imediata.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "com-003",
+      "subject": "communications",
+      "question": "O que significa a chamada 'PAN-PAN' em comunicações marítimas?",
+      "options": [
+        "Mensagem de socorro — perigo grave e iminente",
+        "Mensagem de urgência — situação grave mas sem perigo imediato para a vida",
+        "Mensagem de segurança da navegação",
+        "Mensagem de rotina entre embarcações"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A chamada 'PAN-PAN' (repetida três vezes) indica uma mensagem de urgência. É utilizada quando existe uma situação grave que requer assistência, mas não há perigo imediato para a vida humana ou para a embarcação.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "com-004",
+      "subject": "communications",
+      "question": "No sistema GMDSS, qual é a função do canal 70 VHF?",
+      "options": [
+        "Canal de trabalho para comunicações entre portos",
+        "Canal reservado para chamadas seletivas digitais (DSC)",
+        "Canal para informações meteorológicas",
+        "Canal para comunicações entre embarcações de pesca"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O canal 70 VHF é exclusivamente reservado para chamadas seletivas digitais (DSC — Digital Selective Calling) no sistema GMDSS. Permite o envio automático de alertas de socorro com identificação e posição da embarcação.",
+      "difficulty": "hard",
+      "assets": null
+    },
+    {
+      "id": "leg-001",
+      "subject": "legislation",
+      "question": "Qual é a distância máxima à costa a que pode navegar uma embarcação com a Carta de Patrão Local?",
+      "options": [
+        "3 milhas náuticas",
+        "5 milhas náuticas",
+        "10 milhas náuticas",
+        "25 milhas náuticas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Carta de Patrão Local permite a navegação até 5 milhas náuticas da costa. Para navegar além desta distância, é necessário possuir a Carta de Patrão de Costa ou de Alto Mar.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "leg-002",
+      "subject": "legislation",
+      "question": "Qual é a idade mínima para obter a Carta de Patrão Local em Portugal?",
+      "options": [
+        "14 anos",
+        "16 anos",
+        "18 anos",
+        "21 anos"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A idade mínima para obtenção da Carta de Patrão Local é de 18 anos, de acordo com a legislação portuguesa sobre navegação de recreio.",
+      "difficulty": "easy",
+      "assets": null
+    },
+    {
+      "id": "leg-003",
+      "subject": "legislation",
+      "question": "De acordo com a legislação portuguesa, qual é o limite máximo de taxa de alcoolemia para o patrão de uma embarcação de recreio?",
+      "options": [
+        "0,2 g/l",
+        "0,5 g/l",
+        "0,8 g/l",
+        "Não existe limite legal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O limite máximo de taxa de alcoolemia para quem comanda uma embarcação de recreio em Portugal é de 0,5 g/l, semelhante ao limite para condutores rodoviários. Acima deste valor, o patrão está em infração.",
+      "difficulty": "medium",
+      "assets": null
+    },
+    {
+      "id": "leg-004",
+      "subject": "legislation",
+      "question": "Segundo a legislação portuguesa, é obrigatório registar uma embarcação de recreio quando esta tem comprimento igual ou superior a:",
+      "options": [
+        "2,5 metros",
+        "3,5 metros",
+        "5 metros",
+        "7 metros"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Em Portugal, é obrigatório o registo de embarcações de recreio com comprimento igual ou superior a 2,5 metros, ou que possuam motor, independentemente do comprimento. O registo é feito na Capitania do Porto da área de residência do proprietário.",
+      "difficulty": "hard",
+      "assets": null
+    }
+  ]
+}

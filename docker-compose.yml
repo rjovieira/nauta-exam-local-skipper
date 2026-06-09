@@ -1,0 +1,24 @@
+services:
+  # Production service (serving built static files via Nginx)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    container_name: nauta-exam-prod
+
+  # Development service (hot-reloading Dev Server)
+  dev:
+    image: node:24-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8081:8081"
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true # Enable file polling for stable hot reloading in Docker volumes
+    command: npx expo start --web --host 0.0.0.0
+    container_name: nauta-exam-dev
