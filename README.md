@@ -108,7 +108,7 @@ To build and run the optimized production container:
 docker compose up --build app
 ```
 * **How it works:** A multi-stage `Dockerfile` compiles the production static web bundle (`npx expo export --platform web`) and copies it to a lightweight Alpine Nginx server.
-* The application runs at **`http://localhost:8080`**.
+* The application runs at **`http://localhost:8085`**.
 * **Nginx Features (`nginx.conf`):** Configured with custom `try_files` fallbacks to handle single-page navigation and enables Gzip compression (for CSS, HTML, JS) to improve web performance metrics.
 
 ---
